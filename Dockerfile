@@ -6,7 +6,7 @@ RUN apk add --no-cache \
 # Testing
 RUN pip install Flask
 ENV TINI_VERSION v0.18.0
-# Testing 2
+# Testing 3
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-static /tini
 RUN chmod +x /tini
 WORKDIR /src
